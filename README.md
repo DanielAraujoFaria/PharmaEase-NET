@@ -60,7 +60,7 @@ JSON exemplo para POST de Medicamentos:
   "nomeMed": "Paracetamol",
   "codBarra": "7891234567890",
   "dataCadastro": "2024-09-16T21:17:02.527Z",
-  "dataCancelamento": null,
+  "dataCancelamento": null,    
   "fabricante": "Farmaceutica XYZ",
   "categoriaMed": "Analgésico",
   "dosagem": "500mg",
@@ -70,6 +70,11 @@ JSON exemplo para POST de Medicamentos:
   "dimensaoMed": "5x10 mm"
 }
 ```
+
+Se sentir que for necessário também pode ser interessante olhar essas mudanças em tempo real no Oracle SQL nas tabelas T_PE_CLIENTE E T_PE_MEDICAMENTO! Segue abaixo o cadastro:
+<u>id: rm99067<u>
+<u>password: 150305<u>
+
 ## Autores
 
 - [Arthur Mitsuo Yamamoto - RM551283](https://github.com/ArthurMitsuoYamamoto)
