@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|c:\\fiap\\net\\pharmaease1\\pharmaease\\pharmaease.services\\services\\clientesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|solutionrelative:pharmaease.services\\services\\clientesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|c:\\fiap\\net\\pharmaease1\\pharmaease\\pharmaease.database\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|solutionrelative:pharmaease.database\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|c:\\fiap\\net\\pharmaease1\\pharmaease\\pharmaease.database\\mappings\\clientemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|solutionrelative:pharmaease.database\\mappings\\clientemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|c:\\fiap\\net\\pharmaease1\\pharmaease\\pharmaease.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|solutionrelative:pharmaease.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF778F90-EFFE-4814-AA70-067943ED99E2}|Pharmaease.Repository\\Pharmaease.Repository.csproj|c:\\fiap\\net\\pharmaease1\\pharmaease\\pharmaease.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF778F90-EFFE-4814-AA70-067943ED99E2}|Pharmaease.Repository\\Pharmaease.Repository.csproj|solutionrelative:pharmaease.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF778F90-EFFE-4814-AA70-067943ED99E2}|Pharmaease.Repository\\Pharmaease.Repository.csproj|c:\\fiap\\net\\pharmaease1\\pharmaease\\pharmaease.repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF778F90-EFFE-4814-AA70-067943ED99E2}|Pharmaease.Repository\\Pharmaease.Repository.csproj|solutionrelative:pharmaease.repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF778F90-EFFE-4814-AA70-067943ED99E2}|Pharmaease.Repository\\Pharmaease.Repository.csproj|c:\\fiap\\net\\pharmaease1\\pharmaease\\pharmaease.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF778F90-EFFE-4814-AA70-067943ED99E2}|Pharmaease.Repository\\Pharmaease.Repository.csproj|solutionrelative:pharmaease.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientesServices.cs",
-              "DocumentMoniker": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Services\\Services\\ClientesServices.cs",
-              "RelativeDocumentMoniker": "Pharmaease.Services\\Services\\ClientesServices.cs",
-              "ToolTip": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Services\\Services\\ClientesServices.cs",
-              "RelativeToolTip": "Pharmaease.Services\\Services\\ClientesServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Pharmaease.Database\\Models\\Cliente.cs",
+              "ToolTip": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Models\\Cliente.cs",
+              "RelativeToolTip": "Pharmaease.Database\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:48:53.471Z",
+              "WhenOpened": "2024-09-16T00:43:32.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Pharmaease.API\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Pharmaease.API\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Title": "ClienteMapping.cs",
+              "DocumentMoniker": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Mappings\\ClienteMapping.cs",
+              "RelativeDocumentMoniker": "Pharmaease.Database\\Mappings\\ClienteMapping.cs",
+              "ToolTip": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Mappings\\ClienteMapping.cs",
+              "RelativeToolTip": "Pharmaease.Database\\Mappings\\ClienteMapping.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T21:56:36.521Z",
+              "WhenOpened": "2024-09-16T00:43:25.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Pharmaease.API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Pharmaease.API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T00:42:04.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Interface\\IRepository.cs",
               "RelativeDocumentMoniker": "Pharmaease.Repository\\Interface\\IRepository.cs",
@@ -79,7 +92,7 @@
               "RelativeDocumentMoniker": "Pharmaease.Repository\\Repository.cs",
               "ToolTip": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Repository.cs",
               "RelativeToolTip": "Pharmaease.Repository\\Repository.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAxwEcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T20:49:35.6Z",
               "EditorCaption": ""

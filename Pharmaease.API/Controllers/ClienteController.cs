@@ -47,20 +47,35 @@ namespace Pharmaease.API.Controllers
             return Ok(cliente);
         }
 
-        [HttpPatch]
+        // Changed Patch to Put
+        [HttpPut("{id}")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-        public IActionResult Patch([FromBody] Cliente cliente)
+        public IActionResult Put(int id, [FromBody] Cliente cliente)
         {
+            var existingCliente = _clienteRepository.GetById(id);
+            if (existingCliente == null)
+            {
+                return NotFound();
+            }
+
+            cliente.Id = id; // Ensuring the ID is consistent
             _clienteRepository.Update(cliente);
             return Ok();
         }
 
-        [HttpDelete]
-        [ProducesResponseType((int)HttpStatusCode.OK)]
+        // Changed Delete to take id as a parameter
+        [HttpDelete("{id}")]
+        [ProducesResponseType((int)HttpStatusCode.NoContent)]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-        public IActionResult Delete([FromBody] Cliente cliente)
+        public IActionResult Delete(int id)
         {
+            var cliente = _clienteRepository.GetById(id);
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
             _clienteRepository.Delete(cliente);
             return NoContent();
         }

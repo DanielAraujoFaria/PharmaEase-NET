@@ -21,24 +21,29 @@ namespace Pharmaease.Database.Mappings
 
             builder
                 .Property(x => x.IdCliente)
+                .HasColumnName("IDCLIENTE")
                 .IsRequired();
 
             builder
                 .Property(x => x.Nome)
                 .HasMaxLength(50)
+                .HasColumnName("NOME")
                 .IsRequired();
 
             builder
                 .Property(x => x.CPF)
                 .HasMaxLength(15)
+                .HasColumnName("CPF")
                 .IsRequired();
 
             builder
                 .Property(x => x.DataCadastro)
+                .HasColumnName("DATACADASTRO")
                 .IsRequired(); // Obrigatório
 
             builder
                 .Property(x => x.DataCancelamento)
+                .HasColumnName("DATACANCELAMENTO")
                 .IsRequired(false); // Opcional
         }
     }

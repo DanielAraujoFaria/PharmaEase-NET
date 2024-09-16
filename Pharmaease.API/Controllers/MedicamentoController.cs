@@ -47,23 +47,37 @@ namespace Pharmaease.API.Controllers
             return Ok(medicamento);
         }
 
-        [HttpPatch]
+        // Changed Patch to Put
+        [HttpPut("{id}")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-        public IActionResult Patch([FromBody] Medicamento medicamento)
+        public IActionResult Put(int id, [FromBody] Medicamento medicamento)
         {
+            var existingMedicamento = _medicamentoRepository.GetById(id);
+            if (existingMedicamento == null)
+            {
+                return NotFound();
+            }
+
+            medicamento.Id = id; // Ensuring the ID is consistent
             _medicamentoRepository.Update(medicamento);
             return Ok();
         }
 
-        [HttpDelete]
-        [ProducesResponseType((int)HttpStatusCode.OK)]
+        // Changed Delete to take id as a parameter
+        [HttpDelete("{id}")]
+        [ProducesResponseType((int)HttpStatusCode.NoContent)]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-        public IActionResult Delete([FromBody] Medicamento medicamento)
+        public IActionResult Delete(int id)
         {
+            var medicamento = _medicamentoRepository.GetById(id);
+            if (medicamento == null)
+            {
+                return NotFound();
+            }
+
             _medicamentoRepository.Delete(medicamento);
             return NoContent();
         }
-
     }
 }

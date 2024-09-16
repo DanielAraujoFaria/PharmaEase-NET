@@ -46,3 +46,4 @@ C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Repository\obj\Debug\net8.0\refint
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Repository\obj\Debug\net8.0\Pharmaease.Repository.pdb
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Repository\obj\Debug\net8.0\Pharmaease.Repository.genruntimeconfig.cache
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Repository\obj\Debug\net8.0\ref\Pharmaease.Repository.dll
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Repository\obj\Debug\net8.0\Pharmaease.Repository.sourcelink.json

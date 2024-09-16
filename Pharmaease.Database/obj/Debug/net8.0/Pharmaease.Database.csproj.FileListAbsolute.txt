@@ -109,3 +109,4 @@ C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Database\obj\Debug\net8.0\refint\P
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Database\obj\Debug\net8.0\Pharmaease.Database.pdb
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Database\obj\Debug\net8.0\Pharmaease.Database.genruntimeconfig.cache
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Database\obj\Debug\net8.0\ref\Pharmaease.Database.dll
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Database\obj\Debug\net8.0\Pharmaease.Database.sourcelink.json

@@ -72,3 +72,10 @@ C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\obj\Debug\net8.0\Pharmaea.724A
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\obj\Debug\net8.0\Pharmaease.API.dll
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\obj\Debug\net8.0\refint\Pharmaease.API.dll
 C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\obj\Debug\net8.0\Pharmaease.API.pdb
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\obj\Debug\net8.0\Pharmaease.API.sourcelink.json
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\bin\Debug\net8.0\Pharmaease.API.deps.json
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\bin\Debug\net8.0\Pharmaease.API.runtimeconfig.json
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\bin\Debug\net8.0\Pharmaease.API.dll
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\bin\Debug\net8.0\Pharmaease.API.pdb
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\obj\Debug\net8.0\Pharmaease.API.genruntimeconfig.cache
+C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.API\obj\Debug\net8.0\ref\Pharmaease.API.dll

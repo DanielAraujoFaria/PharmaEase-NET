@@ -1,7 +1,10 @@
-﻿namespace Pharmaease.Database.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Pharmaease.Database.Models
 {
     public class Cliente
     {
+        [Column("ID")]
         public int Id { get; set; }
         public int IdCliente { get; set; }
         //Torna Nome obrigatório
