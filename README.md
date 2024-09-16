@@ -37,10 +37,10 @@ O padrão Singleton garante que uma classe tenha apenas uma única instância em
 
 A principal vantagem do Singleton é que ele evita a criação de múltiplas instâncias desnecessárias, o que economiza recursos e simplifica o gerenciamento de estados compartilhados entre diferentes partes do sistema.
 ## Instruções
+Para rodar o nosso projeto, basta clonar o repositório, abrir a pasta PharmaEase-NET no Visual Studio e executar o projeto Pharmaease.API. Quando o projeto compilar e carregar, o site da documentação Swagger será aberto, permitindo que você teste nossa API de Clientes e Medicamentos, dois dos elementos mais importantes para o nosso totem.
 
-Para rodar nosso projeto, disponipilizamos os seguintes jsons e suas funcionalidades...
-
-Json para POST de Clientes:
+Disponibilizamos os seguintes arquivos JSON para testar os endpoints. Sinta-se à vontade para modificar qualquer informação nos arquivos JSON, conforme desejar!
+JSON exemplo para POST de Clientes:
 ```json
 {
     "id": 1,
@@ -52,10 +52,22 @@ Json para POST de Clientes:
 }
 ```
 
-Json para POST de Medicamentos:
+JSON exemplo para POST de Medicamentos:
 ```json
 {
-    
+  "id": 1,
+  "idMedicamento": 1,
+  "nomeMed": "Paracetamol",
+  "codBarra": "7891234567890",
+  "dataCadastro": "2024-09-16T21:17:02.527Z",
+  "dataCancelamento": null,
+  "fabricante": "Farmaceutica XYZ",
+  "categoriaMed": "Analgésico",
+  "dosagem": "500mg",
+  "dataValidade": "2025-09-16T21:17:02.527Z",
+  "descricao": "Uso para alívio de dores e febre.",
+  "quantidadeUni": "20 comprimidos",
+  "dimensaoMed": "5x10 mm"
 }
 ```
 ## Autores
