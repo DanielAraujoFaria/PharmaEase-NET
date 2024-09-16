@@ -54,9 +54,6 @@ namespace Pharmaease.API.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(List<Cliente>), (int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-        [HttpGet]
-        [ProducesResponseType(typeof(List<Cliente>), (int)HttpStatusCode.OK)]
-        [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public IActionResult GetAll()
         {
             var cliente = _clienteRepository.GetAll();
