@@ -71,12 +71,6 @@ JSON exemplo para POST de Medicamentos:
 }
 ```
 
-Se sentir que for necessário também pode ser interessante olhar essas mudanças em tempo real no Oracle SQL nas tabelas T_PE_CLIENTE E T_PE_MEDICAMENTO! Segue abaixo o cadastro:
-
-Id: rm99067
-
-Password: 150305
-
 ## Autores
 
 - [Arthur Mitsuo Yamamoto - RM551283](https://github.com/ArthurMitsuoYamamoto)
