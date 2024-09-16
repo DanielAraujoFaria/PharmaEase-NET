@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pharmaease.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+717dcad0c5f3fa82663923702e284f40003126d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f321dca7b774b7a93d88695e2d5c9165b2c8499")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pharmaease.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pharmaease.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
