@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m7ZV9mFhDfXKvrpymbCcIirh5SyWHj6RmEzXdRY0X+c=",
+  "Source": "Pharmaease.API",
+  "BasePath": "_content/Pharmaease.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
