@@ -425,8 +425,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.8",
-          "Oracle.EntityFrameworkCore": "8.23.50",
-          "Pharmaease.Repository": "1.0.0"
+          "Oracle.EntityFrameworkCore": "8.23.50"
         },
         "compile": {
           "bin/placeholder/Pharmaease.Database.dll": {}
@@ -1137,11 +1136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
       "projectName": "Pharmaease.Repository",
-      "projectPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
+      "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1159,8 +1158,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Pharmaease.Database.csproj": {
-              "projectPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Pharmaease.Database.csproj"
+            "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj"
             }
           }
         }
@@ -1198,16 +1197,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Pharmaease.Repository -> Pharmaease.Database -> Pharmaease.Repository.",
-      "libraryId": "Pharmaease.Repository",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

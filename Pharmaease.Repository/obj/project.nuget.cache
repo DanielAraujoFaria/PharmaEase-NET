@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hSj8JzNvPeM=",
-  "success": false,
-  "projectFilePath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
+  "dgSpecHash": "IxSpTjtDqNc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
@@ -27,15 +27,5 @@
     "C:\\Users\\Daniel\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\system.security.cryptography.pkcs.8.0.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Pharmaease.Repository -> Pharmaease.Database -> Pharmaease.Repository.",
-      "libraryId": "Pharmaease.Repository",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

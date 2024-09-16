@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pharmaease.API</name>
+    </assembly>
+    <members>
+        <member name="M:Pharmaease.API.Controllers.ClienteController.Post(Pharmaease.Database.Models.Cliente)">
+            <summary>
+            Cadastra um novo cliente.
+            </summary>
+            <param name="cliente">Objeto cliente a ser criado.</param>
+            <returns>O cliente recém-criado.</returns>
+            <remarks>
+            Exemplo de requisição:
+            
+                POST /Cliente
+                {
+                    "idCliente": 1,
+                    "nome": "João Silva",
+                    "cpf": "123.456.789-00",
+                    "dataCadastro": "2023-09-01"
+                }
+            </remarks>
+            <response code="201">Cliente criado com sucesso.</response>
+            <response code="400">O cliente fornecido é inválido.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.ClienteController.GetAll">
+            <summary>
+            Retorna todos os clientes cadastrados.
+            </summary>
+            <returns>Lista de clientes.</returns>
+            <response code="200">Lista de clientes retornada com sucesso.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.ClienteController.GetById(System.Int32)">
+            <summary>
+            Retorna um cliente específico pelo ID.
+            </summary>
+            <param name="id">ID do cliente.</param>
+            <returns>Objeto cliente.</returns>
+            <response code="200">Cliente encontrado.</response>
+            <response code="404">Cliente não encontrado.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.ClienteController.Put(System.Int32,Pharmaease.Database.Models.Cliente)">
+            <summary>
+            Atualiza um cliente existente.
+            </summary>
+            <param name="id">ID do cliente a ser atualizado.</param>
+            <param name="cliente">Dados atualizados do cliente.</param>
+            <returns>Status da operação.</returns>
+            <response code="200">Cliente atualizado com sucesso.</response>
+            <response code="404">Cliente não encontrado.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Exclui um cliente pelo ID.
+            </summary>
+            <param name="id">ID do cliente a ser excluído.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Cliente excluído com sucesso.</response>
+            <response code="404">Cliente não encontrado.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+    </members>
+</doc>

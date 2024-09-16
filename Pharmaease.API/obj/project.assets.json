@@ -1133,8 +1133,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.8",
-          "Oracle.EntityFrameworkCore": "8.23.50",
-          "Pharmaease.Repository": "1.0.0"
+          "Oracle.EntityFrameworkCore": "8.23.50"
         },
         "compile": {
           "bin/placeholder/Pharmaease.Database.dll": {}
@@ -3416,11 +3415,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\Pharmaease.API.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.API\\Pharmaease.API.csproj",
       "projectName": "Pharmaease.API",
-      "projectPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\Pharmaease.API.csproj",
+      "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.API\\Pharmaease.API.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\obj\\",
+      "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3438,11 +3437,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Pharmaease.Database.csproj": {
-              "projectPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Pharmaease.Database.csproj"
+            "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj"
             },
-            "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Pharmaease.Repository.csproj": {
-              "projectPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Pharmaease.Repository.csproj"
+            "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj"
             }
           }
         }

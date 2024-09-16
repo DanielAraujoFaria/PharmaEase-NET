@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HAtDGIr6/b8=",
+  "dgSpecHash": "7mdNxvujHuc=",
   "success": true,
-  "projectFilePath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.API\\Pharmaease.API.csproj",
+  "projectFilePath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.API\\Pharmaease.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

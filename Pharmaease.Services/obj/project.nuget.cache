@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UGdpj72aJYI=",
+  "dgSpecHash": "QokmvhE9BFc=",
   "success": true,
-  "projectFilePath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Services\\Pharmaease.Services.csproj",
+  "projectFilePath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",

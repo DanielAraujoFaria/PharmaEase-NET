@@ -3,6 +3,7 @@ using Pharmaease.Repository.Interface;
 using Pharmaease.Repository;
 using Microsoft.EntityFrameworkCore;
 using Pharmaease.Database;
+using System.Reflection;
 
 namespace Pharmaease.API
 {
@@ -70,6 +71,10 @@ namespace Pharmaease.API
                         Email = ""
                     }
                 });
+
+                // using System.Reflection;
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                swagger.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
             });
 
             var app = builder.Build();

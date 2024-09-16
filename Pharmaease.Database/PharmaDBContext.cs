@@ -2,6 +2,7 @@
 using Pharmaease.Database.Mappings;
 using Pharmaease.Database.Models;
 
+#pragma warning disable CS1591
 public class PharmaDBContext : DbContext
 {
     public DbSet<Cliente> Clientes { get; set; }
@@ -24,3 +25,4 @@ public class PharmaDBContext : DbContext
     }
 
 }
+#pragma warning restore CS1591

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pharmaease.Database
-build_property.ProjectDir = C:\FIAP\NET\Pharmaease1\Pharmaease\Pharmaease.Database\
+build_property.ProjectDir = C:\Users\Daniel\Source\Repos\PharmaEase-NET\Pharmaease.Database\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

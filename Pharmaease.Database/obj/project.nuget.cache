@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "owVgI6kLZ6Y=",
-  "success": false,
-  "projectFilePath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Database\\Pharmaease.Database.csproj",
+  "dgSpecHash": "dWfRxdzaihU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -53,15 +53,5 @@
     "C:\\Users\\Daniel\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Pharmaease.Database -> Pharmaease.Repository -> Pharmaease.Database.",
-      "libraryId": "Pharmaease.Database",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
