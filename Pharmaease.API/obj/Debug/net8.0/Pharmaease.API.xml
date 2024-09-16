@@ -15,10 +15,12 @@
             
                 POST /Cliente
                 {
+                    "id": 1,
                     "idCliente": 1,
                     "nome": "João Silva",
                     "cpf": "123.456.789-00",
-                    "dataCadastro": "2023-09-01"
+                    "dataCadastro": "2024-09-16T20:56:02.143Z",
+                    "dataCancelamento": null
                 }
             </remarks>
             <response code="201">Cliente criado com sucesso.</response>
@@ -62,6 +64,67 @@
             <returns>Status da operação.</returns>
             <response code="204">Cliente excluído com sucesso.</response>
             <response code="404">Cliente não encontrado.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.MedicamentoController.Post(Pharmaease.Database.Models.Medicamento)">
+            <summary>
+            Cadastra um novo medicamento.
+            </summary>
+            <param name="medicamento">Objeto medicamento a ser criado.</param>
+            <returns>O medicamento recém-criado.</returns>
+            <remarks>
+            Exemplo de requisição:
+            
+                POST /Medicamento
+                {
+                    "id": 1,
+                    "nome": "Paracetamol",
+                    "dose": "500mg",
+                    "laboratorio": "Laboratório XYZ",
+                    "dataCadastro": "2024-09-16T20:56:02.143Z"
+                }
+            </remarks>
+            <response code="201">Medicamento criado com sucesso.</response>
+            <response code="400">O medicamento fornecido é inválido.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.MedicamentoController.GetAll">
+            <summary>
+            Retorna todos os medicamentos cadastrados.
+            </summary>
+            <returns>Lista de medicamentos.</returns>
+            <response code="200">Lista de medicamentos retornada com sucesso.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.MedicamentoController.GetById(System.Int32)">
+            <summary>
+            Retorna um medicamento específico pelo ID.
+            </summary>
+            <param name="id">ID do medicamento.</param>
+            <returns>Objeto medicamento.</returns>
+            <response code="200">Medicamento encontrado.</response>
+            <response code="404">Medicamento não encontrado.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.MedicamentoController.Put(System.Int32,Pharmaease.Database.Models.Medicamento)">
+            <summary>
+            Atualiza um medicamento existente.
+            </summary>
+            <param name="id">ID do medicamento a ser atualizado.</param>
+            <param name="medicamento">Dados atualizados do medicamento.</param>
+            <returns>Status da operação.</returns>
+            <response code="200">Medicamento atualizado com sucesso.</response>
+            <response code="404">Medicamento não encontrado.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
+        <member name="M:Pharmaease.API.Controllers.MedicamentoController.Delete(System.Int32)">
+            <summary>
+            Exclui um medicamento pelo ID.
+            </summary>
+            <param name="id">ID do medicamento a ser excluído.</param>
+            <returns>Status da operação.</returns>
+            <response code="204">Medicamento excluído com sucesso.</response>
+            <response code="404">Medicamento não encontrado.</response>
             <response code="500">Erro interno do servidor.</response>
         </member>
     </members>

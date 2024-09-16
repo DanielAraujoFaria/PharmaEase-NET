@@ -26,10 +26,12 @@ namespace Pharmaease.API.Controllers
         /// 
         ///     POST /Cliente
         ///     {
+        ///         "id": 1,
         ///         "idCliente": 1,
         ///         "nome": "João Silva",
         ///         "cpf": "123.456.789-00",
-        ///         "dataCadastro": "2023-09-01"
+        ///         "dataCadastro": "2024-09-16T20:56:02.143Z",
+        ///         "dataCancelamento": null
         ///     }
         /// </remarks>
         /// <response code="201">Cliente criado com sucesso.</response>
