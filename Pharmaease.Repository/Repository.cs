@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pharmaease.Repository
 {
-    public class Repository<T> : IRepository<T> where T : class
+    public class Repository<T> : IRepository<T> where T : class, IEntity
     {
         private readonly PharmaDBContext _context;
         private readonly DbSet<T> _dbSet;
@@ -70,6 +70,8 @@ namespace Pharmaease.Repository
             return _dbSet.ToList();
         }
 
+
+
         public T GetById(int? id)
         {
             if (id == null)
@@ -77,7 +79,7 @@ namespace Pharmaease.Repository
                 throw new ArgumentNullException(nameof(id));
             }
 
-            return _dbSet.Find(id);
+            return _dbSet.SingleOrDefault(entity => entity.Id == id);
         }
 
         public void Update(T entity)
@@ -85,5 +87,6 @@ namespace Pharmaease.Repository
             _context.Entry(entity).State = EntityState.Modified;
             _context.SaveChanges();
         }
+
     }
 }

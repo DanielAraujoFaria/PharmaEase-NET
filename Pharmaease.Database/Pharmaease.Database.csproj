@@ -19,5 +19,9 @@
     </PackageReference>
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.50" />
   </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\Pharmaease.Repository\Pharmaease.Repository.csproj" />
+  </ItemGroup>
 
 </Project>

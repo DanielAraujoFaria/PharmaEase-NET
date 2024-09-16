@@ -425,7 +425,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.8",
-          "Oracle.EntityFrameworkCore": "8.23.50"
+          "Oracle.EntityFrameworkCore": "8.23.50",
+          "Pharmaease.Repository": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Pharmaease.Database.dll": {}

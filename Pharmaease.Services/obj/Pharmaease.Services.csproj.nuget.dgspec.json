@@ -28,7 +28,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Pharmaease.Repository.csproj": {
+                "projectPath": "C:\\FIAP\\NET\\Pharmaease1\\Pharmaease\\Pharmaease.Repository\\Pharmaease.Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
