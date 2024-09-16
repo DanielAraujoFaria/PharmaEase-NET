@@ -5,10 +5,10 @@ O PharmaEase Totem é uma solução inovadora que simplifica a experiência de c
 
 ## Índice
 
-- [Explicação da Arquitetura](#-explicação-da-arquitetura)
-- [Design Patterns](#-design-patterns)
-- [Instruções](#-instruções)
-- [Autores](#-autores)
+- [Explicação da Arquitetura](#explicação-da-arquitetura)
+- [Design Patterns](#design-patterns)
+- [Instruções](#instruções)
+- [Autores](#autores)
 
 ## Explicação da Arquitetura
 
