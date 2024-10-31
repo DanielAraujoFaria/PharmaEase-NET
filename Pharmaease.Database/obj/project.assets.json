@@ -2699,19 +2699,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
+    "C:\\Users\\danif\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
+      "projectUniqueName": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
       "projectName": "Pharmaease.Database",
-      "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\obj\\",
+      "projectPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
+      "packagesPath": "C:\\Users\\danif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

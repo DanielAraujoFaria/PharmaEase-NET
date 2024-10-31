@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj": {}
+    "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
+    "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
+        "projectUniqueName": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
         "projectName": "Pharmaease.Database",
-        "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\obj\\",
+        "projectPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj",
+        "packagesPath": "C:\\Users\\danif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,17 +91,21 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj": {
+    "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
         "projectName": "Pharmaease.Repository",
-        "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\obj\\",
+        "projectPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj",
+        "packagesPath": "C:\\Users\\danif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,8 +120,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj"
+              "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
+                "projectPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj"
               }
             }
           }
@@ -152,17 +160,21 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj": {
+    "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj",
+        "projectUniqueName": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj",
         "projectName": "Pharmaease.Services",
-        "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Services\\obj\\",
+        "projectPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\Pharmaease.Services.csproj",
+        "packagesPath": "C:\\Users\\danif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,11 +189,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj"
+              "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj": {
+                "projectPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Pharmaease.Database.csproj"
               },
-              "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj"
+              "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj": {
+                "projectPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Repository\\Pharmaease.Repository.csproj"
               }
             }
           }
