@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pharmaease.Services.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ea6a908a88cef7016467ed5914b6a34bd2974c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2f496a4be5676944237fd069dfebeb0698fae7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pharmaease.Services.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pharmaease.Services.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

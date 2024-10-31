@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5DB2F-75A1-457A-8C7E-7823EE637C4D}|Pharmaease.ML\\Pharmaease.ML.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.ml\\recommendationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5DB2F-75A1-457A-8C7E-7823EE637C4D}|Pharmaease.ML\\Pharmaease.ML.csproj|solutionrelative:pharmaease.ml\\recommendationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.database\\models\\recomendacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|solutionrelative:pharmaease.database\\models\\recomendacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.api\\pharmaease.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|solutionrelative:pharmaease.api\\pharmaease.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pharmaease.API",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Pharmaease.API.csproj",
+              "RelativeDocumentMoniker": "Pharmaease.API\\Pharmaease.API.csproj",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Pharmaease.API.csproj",
+              "RelativeToolTip": "Pharmaease.API\\Pharmaease.API.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-31T21:59:11.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecommendationEngine.cs",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.ML\\RecommendationEngine.cs",
+              "RelativeDocumentMoniker": "Pharmaease.ML\\RecommendationEngine.cs",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.ML\\RecommendationEngine.cs",
+              "RelativeToolTip": "Pharmaease.ML\\RecommendationEngine.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwD0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:57:02.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Recomendacao.cs",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Models\\Recomendacao.cs",
+              "RelativeDocumentMoniker": "Pharmaease.Database\\Models\\Recomendacao.cs",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Models\\Recomendacao.cs",
+              "RelativeToolTip": "Pharmaease.Database\\Models\\Recomendacao.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:55:40.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

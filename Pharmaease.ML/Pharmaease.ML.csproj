@@ -12,4 +12,8 @@
     <PackageReference Include="Microsoft.ML.Recommender" Version="0.21.1" />
   </ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\Pharmaease.Database\Pharmaease.Database.csproj" />
+	</ItemGroup>
+
 </Project>
