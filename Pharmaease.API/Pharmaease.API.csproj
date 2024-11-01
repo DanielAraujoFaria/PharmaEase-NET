@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Pharmaease.Database\Pharmaease.Database.csproj" />
     <ProjectReference Include="..\Pharmaease.Repository\Pharmaease.Repository.csproj" />
+    <ProjectReference Include="..\Pharmaease.Services\Pharmaease.Services.csproj" />
   </ItemGroup>
 
 </Project>

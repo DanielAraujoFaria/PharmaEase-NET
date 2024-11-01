@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pharmaease.Database\Pharmaease.Database.csproj" />
+    <ProjectReference Include="..\Pharmaease.ML\Pharmaease.ML.csproj" />
     <ProjectReference Include="..\Pharmaease.Repository\Pharmaease.Repository.csproj" />
   </ItemGroup>
 

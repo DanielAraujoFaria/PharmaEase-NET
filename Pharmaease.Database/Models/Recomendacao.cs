@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pharmaease.Database.Models
 {
@@ -15,5 +11,9 @@ namespace Pharmaease.Database.Models
         public DateTime DataRecomendacao { get; set; }
         public string? HistoricoCompras { get; set; }
 
+        public bool IsRecent()
+        {
+            return (DateTime.Now - DataRecomendacao).TotalDays < 30; // 30 dias
+        }
     }
 }
