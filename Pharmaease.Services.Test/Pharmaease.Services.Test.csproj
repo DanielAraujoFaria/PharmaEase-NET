@@ -28,4 +28,9 @@
 	</PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pharmaease.Repository\Pharmaease.Repository.csproj" />
+    <ProjectReference Include="..\Pharmaease.Services\Pharmaease.Services.csproj" />
+  </ItemGroup>
+
 </Project>
