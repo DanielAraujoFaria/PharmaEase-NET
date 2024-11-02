@@ -8,7 +8,7 @@ O PharmaEase Totem é uma solução inovadora que simplifica a experiência de c
 - [Explicação da Arquitetura](#explicação-da-arquitetura)
 - [Design Patterns](#design-patterns)
 - [Instruções](#instruções)
-- [RESTful API: OpenFDA](#)
+- [RESTful API: OpenFDA](#openfda)
 - [Testes Implementados](#testes-implementados)
 - [Clean Code](#clean-code)
 - [IA Generativa](#ia-generativa)
