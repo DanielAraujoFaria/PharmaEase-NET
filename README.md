@@ -26,7 +26,7 @@ Além disso, a flexibilidade de manutenção e atualizações nos microservices 
 _1. Estrutura_
 - Monolítica: Todo o código está centralizado em uma única aplicação.
 - Microservices: O sistema é dividido em vários serviços menores e independentes.
-s
+
 _2. Resiliência_
 - Monolítica: Falhas em uma parte podem comprometer toda a aplicação.
 - Microservices: Falhas são isoladas a um serviço, sem afetar o sistema inteiro.
