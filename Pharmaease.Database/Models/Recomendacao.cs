@@ -13,7 +13,7 @@ namespace Pharmaease.Database.Models
 
         public bool IsRecent()
         {
-            return (DateTime.Now - DataRecomendacao).TotalDays < 30; // 30 dias
+            return (DateTime.Now - DataRecomendacao).TotalDays < 30; 
         }
     }
 }

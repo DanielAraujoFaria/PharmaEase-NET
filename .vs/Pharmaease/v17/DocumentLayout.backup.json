@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E796440A-A423-40F5-B32E-6BD09FDA7975}|Pharmaease.Services.Test\\Pharmaease.Services.Test.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.services.test\\test\\recommendationservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E796440A-A423-40F5-B32E-6BD09FDA7975}|Pharmaease.Services.Test\\Pharmaease.Services.Test.csproj|solutionrelative:pharmaease.services.test\\test\\recommendationservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.api\\controllers\\fdacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|solutionrelative:pharmaease.api\\controllers\\fdacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70A5DB2F-75A1-457A-8C7E-7823EE637C4D}|Pharmaease.ML\\Pharmaease.ML.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.ml\\recommendationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70A5DB2F-75A1-457A-8C7E-7823EE637C4D}|Pharmaease.ML\\Pharmaease.ML.csproj|solutionrelative:pharmaease.ml\\recommendationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.services\\openfda\\imediservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|solutionrelative:pharmaease.services\\openfda\\imediservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.services\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|solutionrelative:pharmaease.services\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.services\\openfda\\mediservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|solutionrelative:pharmaease.services\\openfda\\mediservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.api\\controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|solutionrelative:pharmaease.api\\controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.services\\openfda\\mediresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF25F4D-6CBF-4731-9B4A-302AFD0C5AE4}|Pharmaease.Services\\Pharmaease.Services.csproj|solutionrelative:pharmaease.services\\openfda\\mediresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70A5DB2F-75A1-457A-8C7E-7823EE637C4D}|Pharmaease.ML\\Pharmaease.ML.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.ml\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70A5DB2F-75A1-457A-8C7E-7823EE637C4D}|Pharmaease.ML\\Pharmaease.ML.csproj|solutionrelative:pharmaease.ml\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.database\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|solutionrelative:pharmaease.database\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.database\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE9DBBD-84F6-455D-9795-076862B96A66}|Pharmaease.Database\\Pharmaease.Database.csproj|solutionrelative:pharmaease.database\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|c:\\users\\danif\\fiap\\net\\pharmaease-net\\pharmaease.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F632B27-B7E6-4644-A423-7276F057C3B4}|Pharmaease.API\\Pharmaease.API.csproj|solutionrelative:pharmaease.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecommendationServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services.Test\\Test\\RecommendationServiceTest.cs",
-              "RelativeDocumentMoniker": "Pharmaease.Services.Test\\Test\\RecommendationServiceTest.cs",
-              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services.Test\\Test\\RecommendationServiceTest.cs",
-              "RelativeToolTip": "Pharmaease.Services.Test\\Test\\RecommendationServiceTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T22:31:36.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RecommendationController.cs",
-              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Controllers\\RecommendationController.cs",
-              "RelativeDocumentMoniker": "Pharmaease.API\\Controllers\\RecommendationController.cs",
-              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Controllers\\RecommendationController.cs",
-              "RelativeToolTip": "Pharmaease.API\\Controllers\\RecommendationController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB4AAAAFAAAAAAAAAA==",
+              "Title": "MediResponse.cs",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\OpenFDA\\MediResponse.cs",
+              "RelativeDocumentMoniker": "Pharmaease.Services\\OpenFDA\\MediResponse.cs",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\OpenFDA\\MediResponse.cs",
+              "RelativeToolTip": "Pharmaease.Services\\OpenFDA\\MediResponse.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T22:26:08.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RecommendationService.cs",
-              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\Services\\RecommendationService.cs",
-              "RelativeDocumentMoniker": "Pharmaease.Services\\Services\\RecommendationService.cs",
-              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\Services\\RecommendationService.cs",
-              "RelativeToolTip": "Pharmaease.Services\\Services\\RecommendationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T22:24:04.208Z",
+              "WhenOpened": "2024-11-02T19:11:27.39Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.ML\\Program.cs",
-              "RelativeDocumentMoniker": "Pharmaease.ML\\Program.cs",
-              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.ML\\Program.cs",
-              "RelativeToolTip": "Pharmaease.ML\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Pharmaease.API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Pharmaease.API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T22:09:55.99Z",
+              "WhenOpened": "2024-11-02T21:50:06.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Medicamento.cs",
-              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Models\\Medicamento.cs",
-              "RelativeDocumentMoniker": "Pharmaease.Database\\Models\\Medicamento.cs",
-              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Models\\Medicamento.cs",
-              "RelativeToolTip": "Pharmaease.Database\\Models\\Medicamento.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAwAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FDAController.cs",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Controllers\\FDAController.cs",
+              "RelativeDocumentMoniker": "Pharmaease.API\\Controllers\\FDAController.cs",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.API\\Controllers\\FDAController.cs",
+              "RelativeToolTip": "Pharmaease.API\\Controllers\\FDAController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwBkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T22:05:30.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Pharmaease.Database\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Database\\Models\\Cliente.cs",
-              "RelativeToolTip": "Pharmaease.Database\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T22:05:23.717Z",
+              "WhenOpened": "2024-11-02T19:10:18.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RecommendationEngine.cs",
-              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.ML\\RecommendationEngine.cs",
-              "RelativeDocumentMoniker": "Pharmaease.ML\\RecommendationEngine.cs",
-              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.ML\\RecommendationEngine.cs*",
-              "RelativeToolTip": "Pharmaease.ML\\RecommendationEngine.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAD4vycAAAA+AAAAAAAAAA==",
+              "Title": "IMediServices.cs",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\OpenFDA\\IMediServices.cs",
+              "RelativeDocumentMoniker": "Pharmaease.Services\\OpenFDA\\IMediServices.cs",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\OpenFDA\\IMediServices.cs",
+              "RelativeToolTip": "Pharmaease.Services\\OpenFDA\\IMediServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T20:53:47.497Z",
+              "WhenOpened": "2024-11-02T19:20:03.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MediServices.cs",
+              "DocumentMoniker": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\OpenFDA\\MediServices.cs",
+              "RelativeDocumentMoniker": "Pharmaease.Services\\OpenFDA\\MediServices.cs",
+              "ToolTip": "C:\\Users\\danif\\FIAP\\NET\\PharmaEase-NET\\Pharmaease.Services\\OpenFDA\\MediServices.cs",
+              "RelativeToolTip": "Pharmaease.Services\\OpenFDA\\MediServices.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:09:21.934Z",
               "EditorCaption": ""
             }
           ]

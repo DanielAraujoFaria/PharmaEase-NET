@@ -18,7 +18,7 @@ namespace Pharmaease.Repository
             _dbSet = _context.Set<T>();
         }
 
-        // Asynchronous Methods
+        // Async
         public async Task AddAsync(T entity)
         {
             await _dbSet.AddAsync(entity);
@@ -52,7 +52,7 @@ namespace Pharmaease.Repository
             await _context.SaveChangesAsync();
         }
 
-        // Synchronous Methods
+        // Sync
         public void Add(T entity)
         {
             _dbSet.Add(entity);

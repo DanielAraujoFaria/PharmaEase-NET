@@ -8,6 +8,7 @@ O PharmaEase Totem é uma solução inovadora que simplifica a experiência de c
 - [Explicação da Arquitetura](#explicação-da-arquitetura)
 - [Design Patterns](#design-patterns)
 - [Instruções](#instruções)
+- [RESTful API: OpenFDA](#)
 - [Testes Implementados](#testes-implementados)
 - [Clean Code](#clean-code)
 - [IA Generativa](#ia-generativa)
@@ -73,6 +74,24 @@ JSON exemplo para POST de Medicamentos:
   "dimensaoMed": "5x10 mm"
 }
 ```
+
+## OpenFDA
+
+A OpenFDA é uma API do governo dos Estados Unidos que fornece acesso a dados abertos sobre medicamentos, dispositivos médicos e alimentos. Essa API permite que desenvolvedores e pesquisadores acessem informações detalhadas sobre produtos regulamentados pela FDA (Administração de Alimentos e Medicamentos dos EUA), incluindo informações de rotulagem, efeitos colaterais, histórico de aprovações e muito mais.
+
+#### **Traduções**
+Como explicamos acima A OpenFDA é uma API do governo dos Estados Unidos então suas respostas naturalmente serão em inglês, 
+contudo, abaixo deixamos as traduções dos titulos das respostas json para facilitar o entendimento:
+
+**"brandName"** = Nome da marca
+
+**"purpose"** = Propósito do remédio
+
+**"warnings"** = Avisos e precauções 
+
+**"indications"** = Indicações para uso
+
+**"activeIngredients"** = Ingredientes do remédio
 
 ## Testes Implementados
 

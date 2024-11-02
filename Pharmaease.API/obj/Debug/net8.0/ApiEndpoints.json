@@ -1,42 +1,5 @@
 [
   {
-    "ContainingType": "Pharmaease.API.Controllers.RecommendationController",
-    "Method": "Predict",
-    "RelativePath": "api/Recommendation/predict",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "clienteId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "medicamentoId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Pharmaease.API.Controllers.RecommendationController",
-    "Method": "TrainModel",
-    "RelativePath": "api/Recommendation/train",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "recomendacoes",
-        "Type": "System.Collections.Generic.List\u00601[[Pharmaease.Database.Models.Recomendacao, Pharmaease.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Pharmaease.API.Controllers.ClienteController",
     "Method": "Post",
     "RelativePath": "Cliente",
@@ -211,6 +174,46 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pharmaease.API.Controllers.FDAController",
+    "Method": "GetMediByBrandName",
+    "RelativePath": "FDA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brandName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MediResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },

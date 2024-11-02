@@ -22,7 +22,7 @@ namespace Pharmaease.ML
             {
                 ClienteId = recom.IdCliente.ToString(),
                 MedicamentoId = recom.IdMedicamento.ToString(),
-                Label = 1
+                Label = CalculateScore(recom)
             }).ToList();
 
             var trainingData = _mlContext.Data.LoadFromEnumerable(productRatings);
@@ -35,7 +35,32 @@ namespace Pharmaease.ML
                     matrixRowIndexColumnName: "medicamentoIdEncoded"));
 
             _model = pipeline.Fit(trainingData);
-        }   
+        }
+
+        private float CalculateScore(Recomendacao recomendacao)
+        {
+            switch (recomendacao.Sintoma)
+            {
+                case "Dor de cabeça":
+                    return 1.0f;
+                case "Febre":
+                    return 0.5f;
+                case "Dor muscular":
+                    return 0.8f;
+                case "Congestão nasal":
+                    return 0.6f;
+                case "Tosse":
+                    return 0.7f;
+                case "Náusea":
+                    return 0.4f;
+                case "Alergia":
+                    return 0.9f;
+                case "Cansaço":
+                    return 0.3f;
+                default:
+                    return -1.0f;
+            }
+        }
 
         public float Predict(int clienteId, int medicamentoId)
         {
@@ -50,7 +75,12 @@ namespace Pharmaease.ML
                 MedicamentoId = medicamentoId.ToString()
             });
 
-            return prediction.Score;
+            return NormalizeScore(prediction.Score);
+        }
+
+        private float NormalizeScore(float score)
+        {
+            return (score > 0) ? 1.0f : (score < 0) ? -1.0f : 0.0f;
         }
 
         public List<(int medicamentoId, float score)> Recommend(int clienteId, IEnumerable<Medicamento> todosMedicamentos, int topN = 5)

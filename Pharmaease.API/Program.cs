@@ -4,6 +4,7 @@ using Pharmaease.Repository;
 using Microsoft.EntityFrameworkCore;
 using Pharmaease.Database;
 using System.Reflection;
+using Pharmaease.Services.OpenFDA;
 
 namespace Pharmaease.API
 {
@@ -16,6 +17,7 @@ namespace Pharmaease.API
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            builder.Services.AddScoped<IMediServices, MediServices>();
             builder.Services.AddDbContext<PharmaDBContext>(options =>
                 options.UseOracle(builder.Configuration.GetConnectionString("FIAPDatabase")));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

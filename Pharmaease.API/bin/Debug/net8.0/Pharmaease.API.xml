@@ -66,6 +66,32 @@
             <response code="404">Cliente não encontrado.</response>
             <response code="500">Erro interno do servidor.</response>
         </member>
+        <member name="M:Pharmaease.API.Controllers.FDAController.GetMediByBrandName(System.String)">
+            <summary>
+            Obtém informações sobre um medicamento com base no nome da marca.
+            </summary>
+            <param name="brandName">O nome da marca do medicamento a ser buscado.</param>
+            <returns>As informações do medicamento encontrado.</returns>
+            <remarks>
+            A API OpenFDA é uma Api em ingês sobre consulta de medicamentos, abaixo deixamos algumas sugestões 
+            de medicamentos! Boa Pesquisa!
+            
+            Medicamentos sugeridos:
+               - ACETAMINOPHEN
+               - SILICEA
+               - ADVIL
+               - ZYRTEC
+               - IBUPROFEN
+               - NAPROXEN
+                
+            Note que alguns medicamentos podem ter algumas informações faltando. Isso NÃO é um erro da aplicação 
+            mas na verdade da Api que pode não ter todas as informações documentadas sobre dito medicamento!
+            </remarks>
+            <response code="200">Medicamento encontrado com sucesso.</response>
+            <response code="400">O nome da marca fornecido é inválido.</response>
+            <response code="404">Medicamento não encontrado.</response>
+            <response code="500">Erro interno do servidor.</response>
+        </member>
         <member name="M:Pharmaease.API.Controllers.MedicamentoController.Post(Pharmaease.Database.Models.Medicamento)">
             <summary>
             Cadastra um novo medicamento.
